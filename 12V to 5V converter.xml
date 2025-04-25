@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Kartik Deshpande\Documents\PCB Designs\12V to 5V converter\12V to 5V converter.kicad_sch</source>
+    <date>1/1/2024 8:59:36 PM</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>12V to 5V converter</title>
+        <company>Kartik Deshpande</company>
+        <rev>1.0</rev>
+        <date>2023-12-12</date>
+        <source>12V to 5V converter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="12V to 5V converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49d4cfc0-826a-4a06-a39d-d92d40076baa</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="12V to 5V converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c625f31-1034-4f12-a05a-aa897e6b4adc</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4007</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4007" description="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="12V to 5V converter.kicad_sch"/>
+      <property name="ki_description" value="1000V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2b105db-0a7c-446c-a90f-8d7f95c3cfdd</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="12V to 5V converter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be6df07c-8a0a-4ce6-93d2-7fa277b161e7</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="12V to 5V converter.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63feec60-e4f0-40cc-9ac6-f34f20876109</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>USB1035-XX-X-X-X-B_REVE</value>
+      <footprint>USB1035-XX-X-X-X-B_REVE:GCT_USB1035-XX-X-X-X-B_REVE</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/USB1035-GF-P-0-B-B/Global+Connector+Technology/view-part/?ref=eda</field>
+        <field name="Description">
+USB-A (USB TYPE-A), Stacked USB 2.0 Receptacle Connector 8 Position Through Hole, Right Angle
+</field>
+        <field name="MANUFACTURER">GCT</field>
+        <field name="MF">Global Connector Technology</field>
+        <field name="MP">USB1035-GF-P-0-B-B</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/USB1035-GF-P-0-B-B/Global+Connector+Technology/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="USB1035-XX-X-X-X-B_REVE" part="USB1035-XX-X-X-X-B_REVE" description=""/>
+      <property name="MF" value="Global Connector Technology"/>
+      <property name="Description" value="&#xA;USB-A (USB TYPE-A), Stacked USB 2.0 Receptacle Connector 8 Position Through Hole, Right Angle&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/USB1035-GF-P-0-B-B/Global+Connector+Technology/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/USB1035-GF-P-0-B-B/Global+Connector+Technology/view-part/?ref=snap"/>
+      <property name="MP" value="USB1035-GF-P-0-B-B"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="GCT"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="12V to 5V converter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c0c49d7-c567-4c04-bf7e-f10d115c8d75</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SPDT</value>
+      <footprint>Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled</footprint>
+      <libsource lib="Switch" part="SW_SPDT" description="Switch, single pole double throw"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="12V to 5V converter.kicad_sch"/>
+      <property name="ki_description" value="Switch, single pole double throw"/>
+      <property name="ki_keywords" value="switch single-pole double-throw spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3320d45-9452-4d1f-9529-ab2e86caf58c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM7805_TO220</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="LM7805_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="12V to 5V converter.kicad_sch"/>
+      <property name="ki_description" value="Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220"/>
+      <property name="ki_keywords" value="Voltage Regulator 1A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5c8bfd9-db34-4bdb-ba30-3b675e0f0125</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4007">
+      <description>1000V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM7805_TO220">
+      <description>Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220</description>
+      <docs>https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM7805_TO220</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB1035-XX-X-X-X-B_REVE" part="USB1035-XX-X-X-X-B_REVE">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB1035-XX-X-X-X-B_REVE</field>
+        <field name="Footprint">USB1035-XX-X-X-X-B_REVE:GCT_USB1035-XX-X-X-X-B_REVE</field>
+        <field name="MF">Global Connector Technology</field>
+        <field name="Description">
+USB-A (USB TYPE-A), Stacked USB 2.0 Receptacle Connector 8 Position Through Hole, Right Angle
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/USB1035-GF-P-0-B-B/Global+Connector+Technology/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/USB1035-GF-P-0-B-B/Global+Connector+Technology/view-part/?ref=snap</field>
+        <field name="MP">USB1035-GF-P-0-B-B</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">GCT</field>
+      </fields>
+      <pins>
+        <pin num="1A" name="VBUS1" type="power_in"/>
+        <pin num="1B" name="VBUS2" type="power_in"/>
+        <pin num="2A" name="D-1" type="bidirectional"/>
+        <pin num="2B" name="D-2" type="bidirectional"/>
+        <pin num="3A" name="D+1" type="bidirectional"/>
+        <pin num="3B" name="D+2" type="bidirectional"/>
+        <pin num="4A" name="GND1" type="power_in"/>
+        <pin num="4B" name="GND2" type="power_in"/>
+        <pin num="9" name="SHIELD" type="power_in"/>
+        <pin num="10" name="SHIELD" type="power_in"/>
+        <pin num="11" name="SHIELD" type="power_in"/>
+        <pin num="12" name="SHIELD" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+    <library logical="USB1035-XX-X-X-X-B_REVE">
+      <uri>C:/Users/Kartik Deshpande/Downloads/USB1035-XX-X-X-X-B_REVE/USB1035-XX-X-X-X-B_REVE.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="4A" pinfunction="GND1" pintype="power_in"/>
+      <node ref="J4" pin="4B" pinfunction="GND2" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="2" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(D1-K)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1A" pinfunction="VBUS1" pintype="power_in"/>
+      <node ref="J4" pin="1B" pinfunction="VBUS2" pintype="power_in"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(SW1-B)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="6" name="unconnected-(J4-D+1-Pad3A)">
+      <node ref="J4" pin="3A" pinfunction="D+1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="7" name="unconnected-(J4-D+2-Pad3B)">
+      <node ref="J4" pin="3B" pinfunction="D+2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="8" name="unconnected-(J4-D-1-Pad2A)">
+      <node ref="J4" pin="2A" pinfunction="D-1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="9" name="unconnected-(J4-D-2-Pad2B)">
+      <node ref="J4" pin="2B" pinfunction="D-2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(J4-SHIELD-Pad10)">
+      <node ref="J4" pin="10" pinfunction="SHIELD" pintype="power_in+no_connect"/>
+      <node ref="J4" pin="11" pinfunction="SHIELD" pintype="power_in+no_connect"/>
+      <node ref="J4" pin="12" pinfunction="SHIELD" pintype="power_in+no_connect"/>
+      <node ref="J4" pin="9" pinfunction="SHIELD" pintype="power_in+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(SW1-C-Pad3)">
+      <node ref="SW1" pin="3" pinfunction="C" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

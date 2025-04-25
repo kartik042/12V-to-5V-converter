@@ -1,0 +1,8 @@
+#,Reference,Qty,Value,Footprint,DNP
+1,C1,1,470uF,Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal,
+2,C2,1,1uF,Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P10.00mm_Horizontal,
+3,D1,1,1N4007,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,
+4,"J1, J2",2,Screw_Terminal_01x02,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",
+5,J4,1,USB1035-XX-X-X-X-B_REVE,USB1035-XX-X-X-X-B_REVE:GCT_USB1035-XX-X-X-X-B_REVE,
+6,SW1,1,SW_SPDT,Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled,
+7,U1,1,LM7805_TO220,Package_TO_SOT_THT:TO-220-3_Vertical,
